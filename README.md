@@ -9,9 +9,9 @@ This project is a comprehensive Exploratory Data Analysis (EDA) of the UCI Wine 
 - **Note:** files are semicolon-separated (`sep=";"`).
 
 ## Key findings
-- No missing values; <N> exact duplicate rows were found and retained (see the report for the reasoning).
+- No missing values; exact duplicate rows were found and retained (see the report for the reasoning).
 - Quality scores are concentrated between 5 and 7, so the target is imbalanced.
-- Alcohol has the strongest positive correlation with quality (r = <VALUE>); density and volatile acidity are negatively correlated.
+- Alcohol has the strongest positive correlation with quality density and volatile acidity are negatively correlated.
 - Density and alcohol, and free and total sulfur dioxide, are strongly correlated, which indicates multicollinearity.
 - Red and white wines differ significantly in chemistry and mean quality (Welch t-test, p = <VALUE>).
 
@@ -52,5 +52,4 @@ week2-eda/
 ## Tools
 Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, statsmodels, Jupyter, Git/GitHub
 
-## Author
-<Your Name>, Data Science Intern, <Organization>
+
